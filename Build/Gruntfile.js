@@ -26,6 +26,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     "Resources/Public/JavaScript/ddbKitodoZeitungsportal.js" : [
+                        'Resources/Private/JavaScript/hackEvalOnlyOnce.js',
                         '../dlf/Resources/Public/Javascript/jQueryUI/jquery-ui-mouse-slider-resizable-autocomplete.js',
                         '../dlf/Resources/Public/Javascript/OpenLayers/openlayers.js',
                         // Viewer
