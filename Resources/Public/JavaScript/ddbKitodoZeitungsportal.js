@@ -1,3 +1,4 @@
+if(window.DDB_KITODO_SCRIPTS_LOADED===true){throw new Error("Nevermind.")}window.DDB_KITODO_SCRIPTS_LOADED=true;
 /*! jQuery UI - v1.12.1 - 2017-11-09
 * http://jqueryui.com
 * Includes: widget.js, position.js, disable-selection.js, keycode.js, unique-id.js, widgets/resizable.js, widgets/autocomplete.js, widgets/menu.js, widgets/mouse.js, widgets/slider.js
