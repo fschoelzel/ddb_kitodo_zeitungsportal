@@ -69,12 +69,12 @@ After configure and including the template:
 
 ## Configure the Kitodo.Presentation Extension
 
-Example of the dlf part of nested configuration from LocalConfiguration.php file is available [here](Documentation/LocalConfiguration.md). It can be used as a template for plugin configuration after the installation.
+Example of dlf part of configuration from settings.php file is available [here](Documentation/settings.md). It can be used as a template for plugin configuration after the installation.
 
 ## Upgrade to Kitodo.Presentation 5.0.x
 
 - Upgrade package via Composer
-- In `LocalConfiguration.php`:
+- In `settings.php`:
   ```php
   'FE' => [
       'cacheHash' => [

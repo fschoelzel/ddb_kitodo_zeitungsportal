@@ -1,8 +1,8 @@
 # Configuration
-<INCLUDE_TYPOSCRIPT: source="DIR:./Config/" extensions="typoscript">
+@import 'EXT:ddb_kitodo_zeitungsportal/Configuration/TypoScript/Config/'
 
 # Page
-<INCLUDE_TYPOSCRIPT: source="DIR:./Page/" extensions="typoscript">
+@import 'EXT:ddb_kitodo_zeitungsportal/Configuration/TypoScript/Page/'
 
 # Plugins
-<INCLUDE_TYPOSCRIPT: source="DIR:./Plugins/" extensions="typoscript">
+@import 'EXT:ddb_kitodo_zeitungsportal/Configuration/TypoScript/Plugins/'

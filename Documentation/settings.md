@@ -1,13 +1,19 @@
-# LocalConfiguration.php
+# config/system/settings.php
 
 Here is presented part of the configuration related to dlf extension.
 
     'dlf' => [
+        'annotationServerUrl' => '',
+        'embedded3dviewer' => [
+            'defaultViewer' => '',
+            'viewerModelFormatMapping' => '',
+        ],
         'files' => [
             'fileGrpAudio' => 'AUDIO',
             'fileGrpDownload' => 'DOWNLOAD',
             'fileGrpFulltext' => 'DDB_FULLTEXT,FULLTEXT',
             'fileGrpImages' => 'DEFAULT,MAX',
+            'fileGrpScore' => 'SCORE',
             'fileGrpThumbs' => 'THUMBS',
         ],
         'general' => [
@@ -16,11 +22,13 @@ Here is presented part of the configuration related to dlf extension.
             'forceAbsoluteUrl' => '1',
             'forceAbsoluteUrlHttps' => '1',
             'publishNewCollections' => '1',
+            'requiredMetadataFields' => 'document_format,record_id',
             'unhideOnIndex' => '0',
             'useExternalApisForMetadata' => '0',
             'userAgent' => 'DDB-Zeitungsportal',
         ],
         'iiif' => [
+            'indexAnnotations' => '0',
             'thumbnailHeight' => '150',
             'thumbnailWidth' => '150',
         ],
@@ -33,12 +41,12 @@ Here is presented part of the configuration related to dlf extension.
                 'collection' => 'collection',
                 'date' => 'date',
                 'default' => 'default',
-                'fulltext' => 'pagefulltext',
+                'fulltext' => 'fulltext',
                 'geom' => 'geom',
                 'id' => 'id',
                 'license' => 'license',
                 'location' => 'location',
-                'page' => 'pagenumber',
+                'page' => 'page',
                 'partof' => 'partof',
                 'pid' => 'pid',
                 'purl' => 'purl',
@@ -52,11 +60,11 @@ Here is presented part of the configuration related to dlf extension.
                 'title' => 'title',
                 'toplevel' => 'toplevel',
                 'type' => 'type',
-                'uid' => 'issue_id',
+                'uid' => 'uid',
                 'urn' => 'urn',
                 'volume' => 'volume',
             ],
-            'host' => 'api.deutsche-digitale-bibliothek.de',
+            'host' => 'api-q1.deutsche-digitale-bibliothek.de',
             'https' => '1',
             'pass' => '',
             'path' => '/',
