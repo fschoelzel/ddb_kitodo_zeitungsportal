@@ -2,17 +2,15 @@
 
 TYPO3 extension to simplify work with and make adjustments to Kitodo.Presentation at [DDB-Zeitungsportal](https://www.deutsche-digitale-bibliothek.de/newspaper/).
 
-The JavaScript build is based on 5.0.x of Kitodo.Presentation.
+The JavaScript build is based on 6.0.0 of Kitodo.Presentation.
 
 ## System requirements
 
-* TYPO3 CMS 10.4 ELTS to 11.5 LTS
-* Kitodo.Presentation 5.0.x only (not compatible with version 5.1 or higher yet)
-* PHP 7.4.x - 8.3.x
-* Apache Solr 8.x
-* See [Kitodo.Presentation 5.0.x Requirements](https://github.com/kitodo/kitodo-presentation/tree/5.0.x)
-
-> **Important:** This extension requires exactly Kitodo.Presentation 5.0.x. It is not compatible with Kitodo.Presentation 5.1 or higher versions for now.
+* TYPO3 CMS 11.5 ELTS to 12.4 LTS
+* Kitodo.Presentation 6.0
+* PHP 8.1 - 8.3
+* Apache Solr 8.11 - 9.7
+* See [Kitodo.Presentation 6.0 Requirements](https://github.com/kitodo/kitodo-presentation/tree/6.0)
 
 ## Create unified JavaScript/CSS build
 
@@ -71,7 +69,7 @@ After configure and including the template:
 
 Example of dlf part of configuration from settings.php file is available [here](Documentation/settings.md). It can be used as a template for plugin configuration after the installation.
 
-## Upgrade to Kitodo.Presentation 5.0.x
+## Upgrade to Kitodo.Presentation 6.0 (preliminary)
 
 - Upgrade package via Composer
 - In `settings.php`:
